@@ -54,7 +54,7 @@ public class ResultServlet extends HttpServlet {
         } else {
             out.println("Пользователя "+ userName +" нет");
         }
-        out.println("<form name=\"searchForm\" method=\"post\" action=\"/\">");
+        out.println("<form name=\"searchForm\" method=\"post\" action=\"\\TestEasyWebApp\">");
         out.println("<div><input type=\"submit\" value=\"Назад\"/></div>");
         out.println("</form>");
         out.println("</body>");
